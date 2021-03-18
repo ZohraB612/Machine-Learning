@@ -17,7 +17,7 @@ In the present folder, you will find :
 
 # MATLAB files
 
-In this section, I explain how the scripts were developed. All scripts are meant to run independently. The MATLAB scripts are designed to run from within the ‘INM431 Machine Learning coursework - Zohra Bouchamaoui - 150000533’ folder using the pwd function in MATLAB. The dataset is accessible using pwd/Data and the user will be able to execute the scripts and use the dataset as long as the deliverables are not taken out of the main folder.
+In this section, I explain how the scripts were developed. All scripts are meant to run independently. The MATLAB scripts are designed to run from within the ‘Scripts’ folder using the pwd function in MATLAB. The dataset is accessible using pwd/Data and the user will be able to execute the scripts and use the dataset as long as the deliverables are not taken out of the main folder.
 
 	- DataCleaningAdult.m: This script presents the pre-processing of the dataset where first, the categorical variables were transformed into the categorical type, then I removed the rows with missing entries and dropped the ‘education’ column as it seemed that its information was redundant with the one of the ‘educational_num’ column. The cleaned/pre-processed dataset was saved as adult_clean.csv and will be the data used for all the following scripts.
 
